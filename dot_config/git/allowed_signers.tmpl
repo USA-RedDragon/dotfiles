@@ -1,0 +1,4 @@
+{{- $outer := . -}}
+{{ range gitHubKeys "USA-RedDragon" -}}
+{{ $outer.email }} {{ .Key }}
+{{ end -}}
