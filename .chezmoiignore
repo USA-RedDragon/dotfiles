@@ -1,0 +1,4 @@
+README.md
+{{- if ne .chezmoi.hostname "archlinux" }}
+.config/git/config.d/work.gitconfig
+{{- end }}
